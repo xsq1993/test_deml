@@ -1,7 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3a0146c-69dd-42b8-8eec-08802d75ab2f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/tp/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/tp/vendor/shaozeming/translate" />
+      <path value="$PROJECT_DIR$/tp/vendor/topthink/framework" />
+      <path value="$PROJECT_DIR$/tp/vendor/tightenco/collect" />
+      <path value="$PROJECT_DIR$/tp/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/tp/vendor/topthink/think-orm" />
+      <path value="$PROJECT_DIR$/tp/vendor/topthink/think-trace" />
+      <path value="$PROJECT_DIR$/tp/vendor/jaeger/g-http" />
+      <path value="$PROJECT_DIR$/tp/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/tp/vendor/jaeger/querylist" />
+      <path value="$PROJECT_DIR$/tp/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/tp/vendor/league/flysystem-cached-adapter" />
+      <path value="$PROJECT_DIR$/tp/vendor/jaeger/phpquery-single" />
+      <path value="$PROJECT_DIR$/tp/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/tp/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/tp/vendor/stichoza/google-translate-php" />
+      <path value="$PROJECT_DIR$/tp/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/tp/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/tp/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/tp/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/tp/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/tp/vendor/workerman/workerman" />
+      <path value="$PROJECT_DIR$/tp/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/tp/vendor/cache/filesystem-adapter" />
+      <path value="$PROJECT_DIR$/tp/vendor/phpoffice/phpword" />
+      <path value="$PROJECT_DIR$/tp/vendor/cache/adapter-common" />
+      <path value="$PROJECT_DIR$/tp/vendor/cache/tag-interop" />
+      <path value="$PROJECT_DIR$/tp/vendor/composer" />
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/tp/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/tp/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/tp/vendor/guzzlehttp/promises" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="23BNkSCgK5NDUX0JtR2rW3wGeEV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3a0146c-69dd-42b8-8eec-08802d75ab2f" name="Default Changelist" comment="" />
+      <created>1641203662993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641203662993</updated>
+      <workItem from="1641203664047" duration="306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
