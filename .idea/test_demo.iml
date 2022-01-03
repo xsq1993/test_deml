@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tp/app" isTestSource="false" packagePrefix="app\" />
+      <sourceFolder url="file://$MODULE_DIR$/tp/extend" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/shaozeming/translate" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/topthink/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/tightenco/collect" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/topthink/think-helper" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/topthink/think-orm" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/topthink/think-trace" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/jaeger/g-http" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/jaeger/querylist" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/league/flysystem-cached-adapter" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/jaeger/phpquery-single" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/stichoza/google-translate-php" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/laminas/laminas-escaper" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/workerman/workerman" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/cache/filesystem-adapter" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/phpoffice/phpword" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/cache/adapter-common" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/cache/tag-interop" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/tp/vendor/guzzlehttp/promises" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

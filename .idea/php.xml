@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/tp/vendor/shaozeming/translate" />
+      <path value="$PROJECT_DIR$/tp/vendor/topthink/framework" />
+      <path value="$PROJECT_DIR$/tp/vendor/tightenco/collect" />
+      <path value="$PROJECT_DIR$/tp/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/tp/vendor/topthink/think-orm" />
+      <path value="$PROJECT_DIR$/tp/vendor/topthink/think-trace" />
+      <path value="$PROJECT_DIR$/tp/vendor/jaeger/g-http" />
+      <path value="$PROJECT_DIR$/tp/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/tp/vendor/jaeger/querylist" />
+      <path value="$PROJECT_DIR$/tp/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/tp/vendor/league/flysystem-cached-adapter" />
+      <path value="$PROJECT_DIR$/tp/vendor/jaeger/phpquery-single" />
+      <path value="$PROJECT_DIR$/tp/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/tp/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/tp/vendor/stichoza/google-translate-php" />
+      <path value="$PROJECT_DIR$/tp/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/tp/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/tp/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/tp/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/tp/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/tp/vendor/workerman/workerman" />
+      <path value="$PROJECT_DIR$/tp/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/tp/vendor/cache/filesystem-adapter" />
+      <path value="$PROJECT_DIR$/tp/vendor/phpoffice/phpword" />
+      <path value="$PROJECT_DIR$/tp/vendor/cache/adapter-common" />
+      <path value="$PROJECT_DIR$/tp/vendor/cache/tag-interop" />
+      <path value="$PROJECT_DIR$/tp/vendor/composer" />
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/tp/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/tp/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/tp/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/tp/vendor/guzzlehttp/promises" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>
