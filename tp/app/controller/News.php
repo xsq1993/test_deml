@@ -2,12 +2,17 @@
 namespace app\controller;
 
 use app\BaseController;
-use think\facade\Db;
-use think\facade\Request;
-use QL\QueryList;
+use app\model\Org;
 
 class News extends BaseController
 {
+    public function test_array_walk(){
+        $arr1 = ["a"=>"a1","b"=>"b1","c"=>"c1","d"=>"d1","e"=>"e1"];
+
+
+    }
+
+
     /**
      * @param  string $name 数据名称
      * @return mixed
@@ -15,28 +20,45 @@ class News extends BaseController
      */
     public function read()
     {
-        $ppid = posix_getpid();// 获取当前进程PID
-        $pid  = pcntl_fork(); //创建进程
+        $data = Org::select()->toArray();
+        $Teams = [5];//最终结果
+        $mids = [5];
+        do {
+            $othermids = array();
+            $state = false;
+            foreach ($mids as $valueone) {
+                foreach ($data as $key => $valuetwo) {
+                    if ($valuetwo['parent_id'] == $valueone) {
+                        $Teams[] = $valuetwo['id'];
+                        $othermids[] = $valuetwo['id'];
+                        unset($data[$key]);
+                        $state = true;
+                    }
+                }
+            }
+            $mids = $othermids;
+        } while ($state == true);
+        print_r( $Teams );
 
-        switch ($pid){
-            // 创建进程错误
-            case -1:
-                throw new Exception('fork子进程失败!');
-                break;
-
-            // 子进程worker
-            case 0:
-                $cpid = posix_getpid();
-                cli_set_process_title("我是{$ppid}的子进程,我的进程id是{$cpid}.");
-                sleep(30);
-                exit; // 这里exit掉，避免worker继续执行下面的代码而造成一些问题
-                break;
-
-            // 主进程master
-            default:
-                cli_set_process_title("我是父进程,我的进程id是{$ppid}.");
-                pcntl_wait($status); // 挂起父进程，等待并返回子进程状态，防止子进程成为僵尸进程
-                break;
-        }
+//        $pid = 5;
+//        $f_data = [$pid];
+//        $r_data = [$pid];
+//        do{
+//            $status = false;
+//            $o_data = [];
+//            foreach ($f_data as $k=>$v){
+//                foreach ($staff as $k1=>$v1){
+//                    if($v1['parent_id'] == $v){
+//                        $o_data[] = $v1['id'];
+//                        $r_data[] = $v1['id'];
+//                        unset($f_data[$k]);
+//                        $status = true;
+//                    }
+//                }
+//            }
+//
+//        }while($status == true);
+//
+//        print_r($r_data);
     }
 }
